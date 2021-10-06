@@ -1,0 +1,17 @@
+package com.msl.abstractdemo;
+
+public interface Validation {
+	String showName();
+	
+	default String showMoreInfo() {
+		
+		return null;
+	}
+
+	static String showCode() {
+		
+		//lot of logic
+		
+		return "XZYC";
+	}
+}

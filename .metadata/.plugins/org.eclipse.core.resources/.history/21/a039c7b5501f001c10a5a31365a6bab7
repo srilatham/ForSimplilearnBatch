@@ -1,0 +1,7 @@
+package com.msl.sampleobj;
+
+public class ModifierDemo1 {
+
+	public int result;
+	
+}

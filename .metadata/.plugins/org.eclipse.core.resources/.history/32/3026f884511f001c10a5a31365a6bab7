@@ -1,0 +1,6 @@
+package com.msl.package1;
+
+public class ModifierDemo2 {
+
+	protected int counter;
+}

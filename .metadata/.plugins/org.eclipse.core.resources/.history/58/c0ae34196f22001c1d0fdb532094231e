@@ -1,0 +1,11 @@
+package com.msl.abstractdemo;
+
+public interface Validation {
+	String showName();
+	
+	default String showMoreInfo() {
+		
+		return null;
+	}
+
+}

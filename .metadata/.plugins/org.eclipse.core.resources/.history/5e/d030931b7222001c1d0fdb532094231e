@@ -1,0 +1,18 @@
+package com.msl.innerclass;
+
+public class OuterClass1 {
+	private String message = "Welcome to Java";
+	
+	class Inner{
+		
+		void hello() {
+			System.out.println(message + " Let us learn Inner classes");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.msl.sampleobj;
+
+public class Student {
+	//fields
+	int rollNumber;
+	/*
+	data types
+	int - integer 
+	*/
+	String firstName;
+	String lastName;
+	
+	//methods
+	public int getRollNumber() {
+		return rollNumber;
+	}
+	public void setRollNumber(int rollNumber) {
+		this.rollNumber = rollNumber;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+		
+	
+}

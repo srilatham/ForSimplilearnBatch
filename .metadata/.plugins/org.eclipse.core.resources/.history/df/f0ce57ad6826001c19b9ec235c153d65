@@ -1,0 +1,5 @@
+package com.msl.synchro;
+
+public class ThreadVolatileDemo {
+
+}

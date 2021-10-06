@@ -1,0 +1,5 @@
+package com.msl.abstractdemo;
+
+abstract public class Shape {
+
+}

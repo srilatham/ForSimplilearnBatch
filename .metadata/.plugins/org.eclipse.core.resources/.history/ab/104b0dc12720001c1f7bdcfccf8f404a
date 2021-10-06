@@ -1,0 +1,20 @@
+package com.msl.trycatch;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		
+		int intArray[] = new int[3];
+		
+		try {
+			intArray[7] = 34;
+			System.out.println("After assigning");
+			
+		}catch(ArrayIndexOutOfBoundsException exception) {
+			exception.printStackTrace();
+		}finally {
+			//cleaning up code will go here
+			System.out.println("In finally ");
+		}
+	}
+}

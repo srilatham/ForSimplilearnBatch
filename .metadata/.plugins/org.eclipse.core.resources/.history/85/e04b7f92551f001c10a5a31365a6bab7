@@ -1,0 +1,15 @@
+package com.msl.package1;
+
+public class ModifierDemo2 {
+
+	int counter;
+	
+	public String display() {
+		
+		counter = 3;
+		//System.out.println("In display method");
+		
+		return "Hello from display";
+		
+	}
+}

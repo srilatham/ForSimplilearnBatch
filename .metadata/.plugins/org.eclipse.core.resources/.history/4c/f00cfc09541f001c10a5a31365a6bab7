@@ -1,0 +1,12 @@
+package com.msl.package1;
+
+public class ModifierDemo2 {
+
+	int counter;
+	
+	public void display() {
+		
+		counter = 3;
+		
+	}
+}

@@ -1,0 +1,46 @@
+package com.msl.objandclass;
+
+public class Dog {
+	
+	String name;
+	String breed;
+	int age;
+	String color;
+	
+	
+	public Dog() {
+		
+	}
+
+	public Dog(String breed) {
+		
+		this.breed = breed;
+	}
+
+
+
+	public Dog(String name, String breed, int age) {
+		
+		this.name = name;
+		this.breed = breed;
+		this.age = age;
+	}
+
+
+
+	public Dog(String name, String breed, int age, String color) {
+		
+		this.name = name;
+		this.breed = breed;
+		this.age = age;
+		this.color = color;
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
